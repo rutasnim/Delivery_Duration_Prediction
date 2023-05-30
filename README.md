@@ -90,8 +90,14 @@ Another dimension reduction technique to regression tasks and also removes multi
 ### Feature scaling
 - Standard Scaling and min max scaling
 
+## 
+Since this is a __regression__ problem, we consider metrics that take into account __continuous output variables__ and give their estimates based on the difference between the __actual output__ and __predicted output__. Below are some metrics that are used for this prediction.
+
+* [__Mean Squared Error__](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.mean_squared_error.html)
+
 ## Modeling
 
 Apply classical machine learning techniques to find the best model performance
 We will apply 6 different algorithms, 4 different dataset sizes
 full( 40, 20 and 10 features,selected by GINIs importance) and 3 different scalers standard, min-max and no scaler. We will get 72 different results
+
